@@ -1,0 +1,151 @@
+ 
+
+.dashboardTopNab{
+   /* position: fixed; */
+   position: sticky;
+   top: 0;
+   width: -webkit-fill-available;
+}
+.dashboardTopNabTitle{
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    align-items: center;
+}
+.topNabTitle{
+    color: white;
+    font: bold;
+    font-size: 20px;
+    font-weight: 600;
+}
+.topNabButton{
+    background-color: darkred;
+    color: white;
+}
+.topNabButton:hover{
+background-color: darkred;
+}
+.dashboardAvatarSty{
+    /* width: 17vw; */
+    /* height: 34vh; */
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 2px 3px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.dashboardAvatar{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    /* background-color: chocolate; */
+   
+} 
+
+  
+ .sidebarLink{
+  background: chocolate;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    overflow-y: scroll;
+    height: 63vh;
+
+ }
+ 
+  .main {
+    display: flex;
+   
+  }
+  
+  .sidebar {
+    /* float: left; */
+    /* box-sizing: border-box; */
+    /* width: 20%; */
+    /* margin-top: -64px; */
+    /* overflow-y: scroll; */
+    position: fixed;
+    /* left: 0; */
+    height: 100vh;
+  }
+  
+  .content {
+    flex: 1;
+    position: sticky;
+    margin-left: 14rem;
+    /* background-color: rgb(248 249 253); */
+  /* height: 100vh; */
+  top: 0;
+  }
+  .accordion{
+    background: none;
+    box-shadow: none;
+    display: flex;
+    margin-left: 19px;
+  }
+  .sidebarLi{
+    /* display: flex; */
+    gap: 28px;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin:  10px;
+  }
+  
+  .acDetailLink{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+    /* margin-left: 46px; */
+    font-size: 17px;
+    /* border: 2px solid black; */
+    align-items: baseline;
+    padding-left: 50px;
+  }
+  .dashboardContent{
+/* border: 2px solid black; */
+height: 89vh;
+display: flex;
+margin: auto;
+justify-content: center;
+  }
+  .dashboardContentIcon{
+    
+    margin: auto;
+    width: 20rem;
+    height: 20rem;
+    
+  }
+  .dialogButton{
+    background: white;
+    box-shadow: 1px 1px 1px;
+   color: blueviolet;
+  }
+  .dialogButton:hover{
+    background: none;
+    color: none;
+  }
+  .dialogTitleStyle{
+    display: flex;
+    /* border: 2px solid black; */
+    background: rgba(125, 124, 124, 0.266);
+    justify-content: space-between;
+    
+  }
+ .DialogContentSt{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+ }
+  .dialogForm{
+    border: 1px solid chocolate;
+  }
+  .dialogSubmitButton{
+    background: chocolate;
+    
+  }

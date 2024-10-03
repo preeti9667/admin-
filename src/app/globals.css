@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(248 249 253);
+}
+
+.product{
+    border: 1px solid chocolate;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    
+}
+
+.productTitle{
+    text-align: center;
+    color: blueviolet;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.ProductName{
+background: white;
+box-shadow: 1px 1px 1px;
+margin: 10px 0;
+}
+.productTitleStyle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  10px;
+}

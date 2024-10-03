@@ -1,0 +1,186 @@
+
+/* .productTitleStyle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  10px;
+} */
+.productTitleStyleNo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.productInput{
+    padding: 6px 2px;
+    border-radius: 5px;
+    border: 1px solid blueviolet
+}
+.productFlexTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.flexTop{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+   
+
+}
+.totalProducts{
+    border: 1px solid blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    color: blueviolet;
+   
+}
+.dialogTitleStyle{
+    display: flex;
+}
+.formValueItem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+.forValueItemSubCategory{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+/* .productTitleFlex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:  10px 0;
+
+    } */
+    .categoryFlexTopButton{
+        background: white;
+        color: blueviolet;
+    border: none;
+    box-shadow: 1px 1px 1px;
+    border-radius: 6px;
+    padding: 5px 15px;
+    position: static;
+    }
+    .dialogAcButton:hover{
+        background: none;
+        color: navy;
+    }
+    .buttonCircularProgress{
+        position: absolute;
+            left: 45rem;
+            top: 18rem;
+    }
+    .selects{
+        border: 1.5px solid chocolate;
+        padding: 13px 3px ;
+        border-radius: 5px;
+        width: 366px;
+        margin-left: 8px;
+        margin-bottom: 19px;
+    }
+    .contentBottomButton{
+        display: flex;
+        gap: 15px;
+        margin-top: 16px;
+        text-align: center;
+    
+    }
+   .FieldTextarea{
+    border: 1.5px solid chocolate;
+    width: 472px;
+    height: 75px;
+    border-radius: 5px;
+    padding: 5px 10px;
+   }
+   .FieldTextarea1{
+    border: 1.5px solid chocolate;
+    width: 272px;
+    height: auto;
+    border-radius: 5px;
+    padding: 9px 7px;
+   }
+   .rotateButton{
+    color: blueviolet;
+     background: white;
+     box-shadow : 1px 1px 1px;
+     position: static;
+   }
+   .showDialog{
+     display: flex;
+         background: #9a9aa91c;
+          justify-Content: space-between; 
+   }
+   .buttonAdded{
+    cursor: pointer;
+   }
+   .offerFormStyle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+   }
+   .formStyleOrder{
+    display: flex;
+    margin: 15px 10px;
+    gap: 10px;
+    align-items: center;
+   }
+   .settingFormStyle{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:  10px;
+    gap: 10px;
+   }
+
+   .tableThStyle{
+    display: flex;
+    justify-content: space-between;
+
+   }
+   .bannerItemButtons{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+   }
+   .formStyle{
+    border: 1px solid chocolate;
+    padding: 10px;
+    margin-top: 5px;
+   }
+   .formTitleStyle{
+    color: blueviolet;
+    padding: 10px 0;
+    font-size: 18px;
+   }
+   .threeFieldGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    padding: 10px 0;
+   }
+   .fourFieldGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 17px 0;
+   }
+   .fieldArrayStyle{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 9px;
+    padding: 10px 0;
+   }
+   .fieldArrayButton{
+    display: flex;
+   }
+   .fieldStyle{
+    width: -webkit-fill-available;
+   }

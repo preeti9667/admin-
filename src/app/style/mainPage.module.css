@@ -1,0 +1,105 @@
+.footerBody{
+    background: #2f0505;
+    height: auto;
+    width: 100%;
+    /* box-sizing: border-box; */
+    /* padding-bottom: 3px; */
+}
+.footerSection{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+    padding: 28px;
+}
+.sectionTitle{
+    font-size: 21px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+.footerSectionItem{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.heading5{
+    color: white;
+    padding: 5px;
+}
+.nav{
+    background: chocolate;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.navItemList{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+.navItem{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.topNabTitle{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+.drawerButtonIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.drawerListItem{
+    display: flex;
+    gap: 20px;
+}
+.homeContent{
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 33px;
+    margin-top: 30px;
+}
+.homeContentH2{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.homeContentButton{
+    background: chocolate;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+}
+.homeContentButton:hover{
+    background: none;
+    border: 1px solid chocolate;
+    color: chocolate;
+}
+.homeContent2{
+    background: white;
+    width: 100%;
+    height: 188px;
+    margin-top: 19px;
+}
+.homeContent2Flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    align-items: center;
+    height: -webkit-fill-available;
+}
+.content2FlexBtn{
+    background: chocolate;
+    padding: 6px;
+    border-radius: 23px;
+    color: white;
+}

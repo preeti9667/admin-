@@ -1,0 +1,63 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248 249 253);
+    width:  400px;
+    height: 420px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 2px;
+    border-radius: 61px 56px;
+    
+}
+.flex{
+  background-repeat: no-repeat;
+  background-size: cover;
+     height: 100vh;
+     opacity: 1.2;
+     display: flex;
+     border: 2px solid black;
+     /* background-image: url('https://media.istockphoto.com/id/1089052850/photo/three-elements-in-a-beach.jpg?s=612x612&w=0&k=20&c=hsIFPZP3oHByqsrd3btzDHLax9WT2PrnzYf_Wj8Fngg=' ) ; */
+     background-image: url('https://st2.depositphotos.com/2739581/10385/i/450/depositphotos_103857750-stock-photo-mottled-dairy-cow-on-a.jpg');
+     
+}
+.formStyle{
+    margin-top: 20px;
+    color: darkcyan;
+    /* color: darkkhaki; */
+}
+.formStyleIcon{
+    width: 50px;
+    height: 50px;
+    color: darkkhaki;
+}
+.loginBtn{
+    width: 300px;
+    /* padding: 6px; */
+    /* margin-top: 10px; */
+   
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: darkkhaki;
+}
+.input{
+    width: 300px;
+    padding: 0px 0px;
+
+}
+.formInput{
+    text-align: start;
+    /* width: 310px; */
+    margin: 24px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.inputErrorStyle{
+    color: #ec0606;
+    font-size: 12px;
+    margin-top: -20px;
+
+    
+}
