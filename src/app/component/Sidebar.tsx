@@ -49,45 +49,6 @@ const handleOpen=()=>{
           </button>
         </li>
         <li>
-        
-            
-         
-
-          {/* <Accordion className={style.accordion} defaultExpanded >
-
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon sx={{ color: 'white' }} />}
-              aria-controls="panel1-content"
-              id="panel1-header"
-              sx={{ color: 'white' }}
-            >
-              <Brightness7Icon />
-              <Typography
-               sx={{ paddingLeft: '28px', fontSize: '17px' }}
-               >UI Content</Typography>
-
-            </AccordionSummary>
-            <AccordionActions className={style.acDetailLink}>
-              <button
-                className={`link ${pathname === '/admin/categories' ? 'text-zinc-400' : ''}`}>
-                <Link href='../admin/categories' >Categories</Link>
-              </button>
-              <button
-                className={`link ${pathname === '/admin/banner' ? 'text-zinc-400' : ''}`}>
-                <Link href='../admin/banner' >Banner</Link>
-              </button>
-              <button
-                className={`link ${pathname === '/admin/content' ? 'text-zinc-400' : ''}`}>
-                <Link href='../admin/content'>Ui Content</Link>
-              </button>
-              <button
-                className={`link ${pathname === '/admin/brands' ? 'text-zinc-400' : ''}`}>
-                <Link href='../admin/brands'>Brands</Link>
-              </button>
-
-            </AccordionActions>
-
-          </Accordion> */}
           
         </li>
 

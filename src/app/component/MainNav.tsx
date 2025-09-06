@@ -14,6 +14,7 @@ import CropOriginalIcon from '@mui/icons-material/CropOriginal';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import SearchIcon from '@mui/icons-material/Search';
+import { useRouter } from 'next/navigation';
 export default function MainNav() {
     const [open, setOpen] = useState(false);
     const [one,setOne]= useState(false);
@@ -24,6 +25,7 @@ export default function MainNav() {
     const openBrand=()=>{
         setBrand(!brand)
     }
+    const router = useRouter();
     return (
         <>
             <nav className={styles.nav}>
@@ -33,9 +35,14 @@ export default function MainNav() {
                         <IconButton onClick={() => setOpen(true)}>
                             <DehazeIcon sx={{ color: 'white' }} />
                         </IconButton>
+                                <IconButton sx={{ color: 'white' }}  onClick={() => router.push('../admin/dashboard') }>
+                            
+                            Go Dashboard
+                        </IconButton>
 
-
-                        <h2 className={styles.topNabTitle}>SHOPFORCOWS</h2>
+                        <h2 className={styles.topNabTitle}>
+                            SHOPFORCOWS
+                            </h2>
                     </div>
                     <div>
                         <Paper 

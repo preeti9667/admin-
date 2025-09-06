@@ -19,7 +19,7 @@ const Navbar = () => {
               Log Out
               </Button>
 
-             <Check/>
+             {/* <Check/> */}
         </Box>
       
         </nav>
