@@ -32,10 +32,10 @@ const handleSubmit=(values:formData)=>{
         <>
         <button onClick={handleOpen}>hello</button>
           <CategoryForm open={open} close={handleClose} onSubmit={handleSubmit}/>
-        {formData.map((item,index)=>(
+        {formData.map((item:any,index:number)=>(
             <div key={index}>
                 {item.category}
-                {item.subcategory.map((text,index)=>(
+                {item.subcategory.map((text:any,index :number)=>(
                     <div key={index}>{text.value}</div>
                 ))}
                 </div>
